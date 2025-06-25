@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #000080;
+    background-color: #000088;
 }
 
 .navbar-default .navbar-brand {
@@ -184,7 +184,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -219,7 +219,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.secondary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -231,14 +231,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: 000088;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
