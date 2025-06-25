@@ -9,17 +9,6 @@ description: "Johannesburg South Stake of the Church of Jesus Christ of Latter-d
 
 # Team names, titles and social links
 people:
-- name: Sandile Makasi
-  pic: 1Makasi
-  position: Stake President
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
 - name: Olev Taim
   pic: 2Taim
   position: 1st Counselor
@@ -29,6 +18,17 @@ people:
     - title: facebook
       url: #
     - title: linkedin
+      url: #
+      
+- name: Sandile Makasi
+  pic: 1Makasi
+  position: Stake President
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
       url: #
 
 - name: Lerato Slater
