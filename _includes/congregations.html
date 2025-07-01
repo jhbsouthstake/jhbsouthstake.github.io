@@ -65,12 +65,12 @@
                     <h4 class="service-heading">Sebokeng Ward</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div> -->
-                {% for members in site.congregations %}
+                {% for member in site.congregations %}
                 <div class="col-sm-4">
                     <div class="leaders-member">
                         <img src="img/congregations/{{ member.pic }}" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
-                        <p class="text-muted">Meeting Time{{ member.meeting-time }}</p>
+                        <p class="text-muted">Meeting Time: {{ member.meeting-time }}</p>
                     </div>
                 </div>
                 {% endfor %}
