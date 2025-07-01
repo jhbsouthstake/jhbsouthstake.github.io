@@ -36,6 +36,15 @@ people:
     - title: linkedin
       url: #
 
+congregations:
+- name: Ennerdale Branch
+  pic: ennerdale.png
+  address:
+    - line: 41 Fourth Avenue
+    - line: Mid-Ennerdale
+    - line: Johannesburg
+  meeting-time: Sunday 9:00 AM
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   # - title: twitter
