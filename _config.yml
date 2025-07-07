@@ -1,6 +1,13 @@
 url: https://jhbsouthstake.github.io
 baseurl: /
 
+# Serving
+detach              : false
+port                : 4000
+host                : 127.0.0.1
+baseurl             : "" # does not include hostname
+show_dir_listing    : false
+
 # Site settings
 title: Johannesburg South Stake
 email: your-email@domain.com
@@ -44,6 +51,60 @@ congregations:
     - line: Mid-Ennerdale
     - line: Johannesburg
   meeting-time: Sunday 9:00 AM
+  map-link: https://maps.app.goo.gl/CzLm6iUyyXDnqELA9
+  
+- name: Florida 1st Ward
+  pic: florida.png
+  address:
+    - line: c/o Philips Ave & Gildea Str
+    - line: Discovery
+    - line: Roodepoort
+  meeting-time: Sunday 9:00 AM
+  map-link: https://maps.app.goo.gl/fKdqsYXTANF2APJR7
+
+- name: Florida 2nd Ward
+  pic: florida.png
+  address:
+    - line: c/o Philips Ave & Gildea Str
+    - line: Discovery
+    - line: Roodepoort
+  meeting-time: Sunday 11:00 AM
+  map-link: https://maps.app.goo.gl/fKdqsYXTANF2APJR7
+
+- name: Orange Farm Branch
+  pic: orange-farm.png
+  address:
+    - line: Orange Farm Primary School
+    - line: Orange Farm
+  meeting-time: Sunday 9:00 AM
+  map-link: https://maps.app.goo.gl/R96iJpjiKWsjSFaQ7
+
+- name: Randburg Ward
+  pic: randburg.png
+  address:
+    - line: 145 Curzon Rd
+    - line: Cramerview
+    - line: Sandton
+  meeting-time: Sunday 10:30 AM
+  map-link: https://maps.app.goo.gl/L8LUqtsCDHawWxcp7
+
+- name: Ridgeway Ward
+  pic: ridgeway.png
+  address:
+    - line: Cnr Susanna Str & Swartgoud Str
+    - line: Ridgeway
+    - line: Johannesburg
+  meeting-time: Sunday 9:00 AM
+  map-link: https://maps.app.goo.gl/AqKcpQFeawM4nXfUA
+
+- name: Sebokeng Ward
+  pic: sebokeng.png
+  address:
+    - line: Erf 62390
+    - line: Zone 17
+    - line: Sebokeng
+  meeting-time: Sunday 9:00 AM
+  map-link: https://maps.app.goo.gl/U95y1PTDwcie55ag9
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
