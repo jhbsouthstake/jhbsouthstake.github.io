@@ -51,8 +51,8 @@ congregations:
     - line: Mid-Ennerdale
     - line: Johannesburg
   meeting-time: Sunday 9:00 AM
-  map-link: https://maps.app.goo.gl/CzLm6iUyyXDnqELA9
-  
+  map-link: https://maps.app.goo.gl/MaUfqQVisXgaiYc46
+
 - name: Florida 1st Ward
   pic: florida.png
   address:
@@ -60,7 +60,7 @@ congregations:
     - line: Discovery
     - line: Roodepoort
   meeting-time: Sunday 9:00 AM
-  map-link: https://maps.app.goo.gl/fKdqsYXTANF2APJR7
+  map-link: https://maps.app.goo.gl/uhMB4Acvek9bvFBP8
 
 - name: Florida 2nd Ward
   pic: florida.png
@@ -69,7 +69,7 @@ congregations:
     - line: Discovery
     - line: Roodepoort
   meeting-time: Sunday 11:00 AM
-  map-link: https://maps.app.goo.gl/fKdqsYXTANF2APJR7
+  map-link: https://maps.app.goo.gl/uhMB4Acvek9bvFBP8
 
 - name: Orange Farm Branch
   pic: orange-farm.png
@@ -86,7 +86,7 @@ congregations:
     - line: Cramerview
     - line: Sandton
   meeting-time: Sunday 10:30 AM
-  map-link: https://maps.app.goo.gl/L8LUqtsCDHawWxcp7
+  map-link: https://maps.app.goo.gl/bBUjutc78goxMc7YA
 
 - name: Ridgeway Ward
   pic: ridgeway.png
@@ -95,7 +95,7 @@ congregations:
     - line: Ridgeway
     - line: Johannesburg
   meeting-time: Sunday 9:00 AM
-  map-link: https://maps.app.goo.gl/AqKcpQFeawM4nXfUA
+  map-link: https://maps.app.goo.gl/iRHHiKeRwBNXpUJg8
 
 - name: Sebokeng Ward
   pic: sebokeng.png
@@ -104,7 +104,7 @@ congregations:
     - line: Zone 17
     - line: Sebokeng
   meeting-time: Sunday 9:00 AM
-  map-link: https://maps.app.goo.gl/U95y1PTDwcie55ag9
+  map-link: https://maps.app.goo.gl/T52TE4oFGXNKLfEg9
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
