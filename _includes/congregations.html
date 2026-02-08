@@ -73,7 +73,8 @@
                         <p class="text-muted">
                         <!-- List adress lines. -->
                           {% for member in member.address %}
-                            {{member.line}}<br>
+                            <a href="{{ member.map-link }}" target="_blank">{{member.line}}</a><br>
+                            <!-- {{member.line}}<br> -->
                           {% endfor %}
                         <a href="{{ member.map-link }}" target="_blank">Directions to {{member.name}}</a><br>
                         Meeting Time: {{ member.meeting-time }}<br>
