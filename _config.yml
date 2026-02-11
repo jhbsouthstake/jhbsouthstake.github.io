@@ -17,31 +17,31 @@ description: "Johannesburg South Stake of the Church of Jesus Christ of Latter-d
 # Team names, titles and social links
 people:
 - name: Sandile Makasi
-  pic: 1Makasi.png
+  pic: 1Makasi-sm.png
   position: Stake President
-  social:
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  # social:
+  #   - title: facebook
+  #     url: #
+  #   - title: linkedin
+  #     url: #
       
 - name: Olev Taim
-  pic: 2Taim.png
+  pic: 2Taim-sm.png
   position: 1st Counselor
-  social:
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  # social:
+  #   - title: facebook
+  #     url: #
+  #   - title: linkedin
+  #     url: #
       
 - name: Lerato Slater
-  pic: 3Slater.png
+  pic: 3Slater-sm.png
   position: 2nd Counselor
-  social:
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  # social:
+  #   - title: facebook
+  #     url: #
+  #   - title: linkedin
+  #     url: #
 
 congregations:
 - name: Ennerdale Branch
@@ -110,10 +110,10 @@ congregations:
 social:
   # - title: twitter
   #   url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: youtube
-    url: 
+  # - title: facebook
+  #   url:
+  # - title: youtube
+  #   url: 
 
 # Postal address (add as many lines as necessary)
 address:
