@@ -2,9 +2,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
-                </div>
-                <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -12,7 +9,13 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="row">
+                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                </div>
+               <div class="row">
+                   <span class="copyright">This is not an official website of The Church of Jesus Christ of Latter-day Saints.</span>
+               </div>
+               <div class="row">
                     <ul class="list-inline quicklinks">
                         <li><a href="#">Privacy Policy</a>
                         </li>
@@ -20,9 +23,6 @@
                         </li>
                     </ul>
                 </div>
-               <div class="row">
-                   <span class="copyright">This is not an official website of The Church of Jesus Christ of Latter-day Saints.</span>
-               </div>
             </div>
         </div>
     </footer>
