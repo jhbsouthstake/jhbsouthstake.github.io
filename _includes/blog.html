@@ -4,12 +4,12 @@
     <h1>Stake News</h1>
 
     <ul class="posts">
-        {% for post in site.posts %}
+        <!-- {% for post in site.posts %}
         <li>
             <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </li>
-        {% endfor %}
+        {% endfor %} -->
         {% for post in site.posts %}
             <div class="col-md-4 col-sm-6 portfolio-item">
                 <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
