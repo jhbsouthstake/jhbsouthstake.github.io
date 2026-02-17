@@ -44,7 +44,7 @@ people:
   #     url: #
 
 congregations:
-- name: Ennerdale Branch
+- name: Ennerdale Ward
   pic: ennerdale.png
   address:
     - line: 41 Fourth Avenue
@@ -71,7 +71,7 @@ congregations:
   meeting-time: Sunday 11:00 AM
   map-link: https://maps.app.goo.gl/uhMB4Acvek9bvFBP8
 
-- name: Orange Farm Branch
+- name: Orange Farm Ward
   pic: orange-farm.png
   address:
     - line: Orange Farm Primary School
