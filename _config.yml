@@ -15,8 +15,35 @@ description: "Johannesburg South Stake of the Church of Jesus Christ of Latter-d
 
 
 # Team names, titles and social links
-people:
+firstpresidency:
+- name: Henry B. Eyring
+  pic: 2-henrybeyring.png
+  position: 1st Counselor
+  # social:
+  #   - title: facebook
+  #     url: #
+  #   - title: linkedin
+  #     url: #
       
+- name: Dallin H. Oaks
+  pic: 1-DallinHOaks.png
+  position: President
+  # social:
+  #   - title: facebook
+  #     url: #
+  #   - title: linkedin
+  #     url: #
+  
+- name: D. Todd Christofferson
+  pic: 3-DToddChristofferson.png
+  position: 2nd Counselor
+  # social:
+  #   - title: facebook
+  #     url: #
+  #   - title: linkedin
+  #     url: #
+      
+stakepresidency:
 - name: Olev Taim
   pic: 2Taim-sm.png
   position: 1st Counselor
@@ -52,6 +79,7 @@ congregations:
     - line: Mid-Ennerdale
     - line: Johannesburg
   meeting-time: Sunday 9:00 AM
+  name-link: https://maps.churchofjesuschrist.org/wards/428604
   map-link: https://maps.app.goo.gl/MaUfqQVisXgaiYc46
 
 - name: Florida 1st Ward
@@ -61,6 +89,7 @@ congregations:
     - line: Discovery
     - line: Roodepoort
   meeting-time: Sunday 9:00 AM
+  name-link: https://maps.churchofjesuschrist.org/wards/192686
   map-link: https://maps.app.goo.gl/uhMB4Acvek9bvFBP8
 
 - name: Florida 2nd Ward
@@ -70,6 +99,7 @@ congregations:
     - line: Discovery
     - line: Roodepoort
   meeting-time: Sunday 11:00 AM
+  name-link: https://maps.churchofjesuschrist.org/wards/2072920
   map-link: https://maps.app.goo.gl/uhMB4Acvek9bvFBP8
 
 - name: Orange Farm Ward
@@ -79,6 +109,7 @@ congregations:
     - line: Orange Farm
     - line:
   meeting-time: Sunday 9:00 AM
+  name-link: https://maps.churchofjesuschrist.org/wards/1538179
   map-link: https://maps.app.goo.gl/R96iJpjiKWsjSFaQ7
 
 - name: Randburg Ward
@@ -88,6 +119,7 @@ congregations:
     - line: Cramerview
     - line: Sandton
   meeting-time: Sunday 09:00 AM
+  name-link: https://maps.churchofjesuschrist.org/wards/347574
   map-link: https://maps.app.goo.gl/bBUjutc78goxMc7YA
 
 - name: Ridgeway Ward
@@ -97,6 +129,7 @@ congregations:
     - line: Ridgeway
     - line: Johannesburg
   meeting-time: Sunday 9:00 AM
+  name-link: https://maps.churchofjesuschrist.org/wards/111740
   map-link: https://maps.app.goo.gl/iRHHiKeRwBNXpUJg8
 
 - name: Sebokeng Ward
@@ -106,6 +139,7 @@ congregations:
     - line: Zone 17
     - line: Sebokeng
   meeting-time: Sunday 9:00 AM
+  name-link: https://maps.churchofjesuschrist.org/wards/441082
   map-link: https://maps.app.goo.gl/T52TE4oFGXNKLfEg9
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
