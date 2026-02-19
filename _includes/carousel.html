@@ -5,6 +5,12 @@
 <section id="carousel1">
 <div class="container">
 <div class="row">
+    <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Stake Members</h2>
+<!--      <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+    </div>
+</div>
+<div class="row">
 <div class="carousel__holder">
     <div id="carousel{{ number }}" class="carousel">
         {% for item in site.data.carousels[number].images %}
@@ -44,6 +50,7 @@
 </div>
 </div>
 </div>
+
 </section>
 <style>
 .carousel__holder {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 1rem 0 1rem;}
