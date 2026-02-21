@@ -30,7 +30,30 @@
 <div id="sharing-the-gospel" class="initiative-section">
   <div id="card-heading" class="text-center"><h2>Sharing The Gospel</h2></div>
   <div id="card-text"><p class="text-muted">Sharing the gospel is a natural expression of the joy and hope we find in Jesus Christ. As we live His teachings, our words, actions, and service become a quiet invitation for others to feel His love and discover the blessings of the restored gospel.<br>As a stake, we encourage members, youth, and families to look for simple, sincere opportunities to share light—through friendship, kindness, service, and meaningful conversations. Whether welcoming someone to an activity, supporting a neighbor, or sharing personal testimony, every act of love becomes a way of sharing the gospel.</p></div>
-  <div id="card-image"><img src="{{ '/img/initiatives/sharingthegospel.jpg' | relative_url }}"  ></div>                                
+  <div id="card-image"><img src="{{ '/img/initiatives/sharingthegospel.jpg' | relative_url }}"  ></div>
+  <div id="resources">
+      <div class="row">
+          <div class="col-md-4 col-sm-6 text-center">
+                  <a href="https://www.churchofjesuschrist.org/study/manual/ways-to-share-the-gospel/01a-learn" target="_blank"><img src="resources/sharing-the-gospel/loveshareinvite.png" class="img-responsive img-centered" alt=""></a>
+              <div class="portfolio-caption">
+                  <a href="https://www.churchofjesuschrist.org/study/manual/ways-to-share-the-gospel/01a-learn" target="_blank">Love, Share, and Invite</a>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+                  <a href="https://www.churchofjesuschrist.org/study/manual/ways-to-share-the-gospel/01a-learn" target="_blank"><img src="resources/sharing-the-gospel/mycovenantpath.png" class="img-responsive img-centered" alt=""></a>
+              <div class="portfolio-caption">
+                  <a href="https://www.churchofjesuschrist.org/study/manual/ways-to-share-the-gospel/01a-learn" target="_blank">My Covenant Path</a>
+              </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+                  <a href="resources/sharing-the-gospel/teaching_in_the_savior_s_way_print.pdf" target="_blank"><img src="resources/sharing-the-gospel/teachininthesavioursway.png" class="img-responsive img-centered" alt=""></a>
+              <div class="portfolio-caption">
+                  <a href="resources/sharing-the-gospel/teaching_in_the_savior_s_way_print.pdf" target="_blank">Teaching in the Savior's Way</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
 </div>
 
 <div id="temple-and-family-history" class="initiative-section">
@@ -38,6 +61,7 @@
   <div id="card-text"><p class="text-muted">The temple and family history work connect us to heaven and to one another across generations. As we discover our ancestors and participate in temple ordinances, we feel a deeper sense of identity, belonging, and purpose within God’s eternal family.<br>As a stake, we invite individuals and families to take part in family history discovery, indexing, temple preparation, and temple worship.</p></div>
   <div id="card-image"><img src="{{ '/img/initiatives/temple.jpg' | relative_url }}"  ></div>
 </div>
+
 
 </div>
 
@@ -60,10 +84,11 @@ transition: opacity 0.4s ease;
 .initiative-section.active {
   display: grid;
   grid-template-columns: 0.75fr 2.5fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
   grid-template-areas:
     "card-heading card-heading"
-    "card-image card-text";
+    "card-image card-text"
+    "resources resources";
   grid-gap: 0.9rem;
   opacity: 0.8;
   }
@@ -72,9 +97,10 @@ transition: opacity 0.4s ease;
 .container-initiatives {
   display: grid;
   grid-template-columns: 3.25fr 0.75fr;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-template-areas:
     "section-heading section-heading"
+    "content-block sidebar"
     "content-block sidebar"
     "content-block sidebar";
   grid-gap: 0.9rem;
@@ -126,7 +152,11 @@ transition: opacity 0.4s ease;
   padding-right: 20px;
 }
 
-
+#resources {
+  grid-area: resources;
+  padding-top: 20px;
+  padding-right: 20px;
+}
 
 @media (max-width: 768px) {
   .container-initiatives {
@@ -144,7 +174,8 @@ transition: opacity 0.4s ease;
     grid-template-areas:
       "card-heading"
       "card-image" 
-      "card-text";
+      "card-text"
+      "resources";
     grid-gap: 0.9rem;
     opacity: 0.8;
     }
