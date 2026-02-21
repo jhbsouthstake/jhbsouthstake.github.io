@@ -1,10 +1,25 @@
-  - images: 
-    - image: /img/slider-images/slider1.jpg
-    - image: /img/slider-images/slider2.jpg
-    - image: /img/slider-images/slider3.jpg
-    - image: /img/slider-images/slider4.jpg
-    - image: /img/slider-images/slider5.jpg
-
-
-
-
+- images:
+  - image: /img/slider-images/slider1.jpg
+  - image: /img/slider-images/slider2.jpg
+  - image: /img/slider-images/slider3.jpg
+  - image: /img/slider-images/slider4.jpg
+  - image: /img/slider-images/slider5.jpg
+  - image: /img/slider-images/slider6.jpg
+  - image: /img/slider-images/slider7.jpg
+  - image: /img/slider-images/slider8.jpg
+  - image: /img/slider-images/slider9.jpg
+  - image: /img/slider-images/slider10.jpg
+  - image: /img/slider-images/slider11.jpg
+  - image: /img/slider-images/slider12.jpg
+  - image: /img/slider-images/slider13.jpg
+  - image: /img/slider-images/slider14.jpg
+  - image: /img/slider-images/slider15.jpg
+  - image: /img/slider-images/slider16.jpg
+  - image: /img/slider-images/slider17.jpg
+  - image: /img/slider-images/slider18.jpg
+  - image: /img/slider-images/slider19.jpg
+  - image: /img/slider-images/slider20.jpg
+  - image: /img/slider-images/slider21.jpg
+  - image: /img/slider-images/slider22.jpg
+  - image: /img/slider-images/slider23.jpg
+  - image: /img/slider-images/slider24.jpg
