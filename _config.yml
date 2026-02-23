@@ -163,3 +163,6 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#Analytics
+google_analytics: G-YDEC18RPG4
