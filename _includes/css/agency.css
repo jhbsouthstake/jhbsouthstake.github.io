@@ -692,7 +692,6 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.bodytext }};
     font-weight: 700;
-    color: #bbb;
 }
 
 section#contact:-moz-placeholder {
@@ -804,7 +803,6 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
-    color: #bbb;
 }
 
 .portfolio-modal .modal-content img {
